@@ -9,7 +9,6 @@ package Rectangulos;
  * @author USUARIO
  */
 public class Circulos {
-
     double pi = 3.14159265358979;
 
     public double radio;

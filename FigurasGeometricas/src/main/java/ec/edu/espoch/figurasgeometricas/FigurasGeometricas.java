@@ -23,14 +23,14 @@ public class FigurasGeometricas {
         Triangulos objtriangulos = new Triangulos(4.2, 4.1);
 
         objtriangulos.imprimir();
-
-        Circulos circulo = new Circulos(8);
+        
+        Circulos circulo = new Circulos(9);
 
         circulo.imprimir();
 
-        Cuadrados Cuadrado = new Cuadrados(8);
+       Cuadrados cuadrado = new Cuadrados(8);
 
-        Cuadrado.imprimir();
+        cuadrado.imprimir();
 
     }
 }

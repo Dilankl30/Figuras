@@ -19,13 +19,15 @@ public class Cuadrados {
 
     public void imprimir() {
         System.out.println(" ");
-        System.out.println("Cuadrado");
+        System.out.println("Cuadrado       :");
         System.out.println("Area del cuadrado: " + cuaArea());
-        System.out.println("Perimetro:"+PeriC());
+        System.out.println("Perimetro:  " + calcP());
     }
-public double PeriC() {
-        return (lado+lado+lado+lado);
+
+    public double calcP() {
+        return lado * 4;
     }
+
     public double cuaArea() {
         return lado * 2 + lado * 2;
     }
