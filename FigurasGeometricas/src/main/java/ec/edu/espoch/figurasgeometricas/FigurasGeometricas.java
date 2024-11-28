@@ -3,6 +3,8 @@
  */
 package ec.edu.espoch.figurasgeometricas;
 
+import Rectangulos.Circulos;
+import Rectangulos.Cuadrados;
 import Rectangulos.RectangulosP;
 import Rectangulos.Triangulos;
 
@@ -21,6 +23,14 @@ public class FigurasGeometricas {
         Triangulos objtriangulos = new Triangulos(4.2, 4.1);
 
         objtriangulos.imprimir();
+
+        Circulos circulo = new Circulos(8);
+
+        circulo.imprimir();
+
+        Cuadrados Cuadrado = new Cuadrados(8);
+
+        Cuadrado.imprimir();
 
     }
 }

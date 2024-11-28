@@ -21,7 +21,7 @@ public class RectangulosP {
     public void imprimir() {
 
         System.out.println("Rectangulo: ");
-        System.out.println("Area: " + calcularArea());
+        System.out.println("Area : " + calcularArea());
         System.out.println("Perimetro: " + calcularPerimetro());
     }
 
