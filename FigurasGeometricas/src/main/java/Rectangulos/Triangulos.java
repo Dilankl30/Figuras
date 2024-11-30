@@ -20,7 +20,7 @@ public class Triangulos {
 
     public void imprimir() {
         System.out.println(" ");
-        System.out.println("Triangulo:");
+        System.out.println(" Triangulo:");
         System.out.println("Area:" + AreaTri());
         System.out.println("Perimetro:" + PeriTri());
         System.out.println("El tipo de triangulo es: " + TipoTri());
