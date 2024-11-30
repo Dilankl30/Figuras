@@ -23,7 +23,7 @@ public class Triangulos {
         System.out.println(" Triangulo:");
         System.out.println("Area:" + AreaTri());
         System.out.println("Perimetro:" + PeriTri());
-        System.out.println("El tipo de triangulo es: " + TipoTri());
+        System.out.println("El tipo de triangulo es : " + TipoTri());
     }
 
     public double AreaTri() {
